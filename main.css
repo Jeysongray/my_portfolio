@@ -1,0 +1,27 @@
+.about_me {
+  background-color: blue;
+}
+/* style the top nav*/
+.top_nav {
+  background-color: #51a3cc;
+  overflow: hidden;
+}
+/* style the top nav links*/
+.top_nav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+/* style the top nav on hover links*/
+.top_nav a:hover {
+  background-color: brown;
+  color: black;
+}
+/* style the top nav active class*/
+.top_nav a.active {
+  background-color: red;
+  color: white;
+}
