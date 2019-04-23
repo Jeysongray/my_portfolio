@@ -1,27 +1,32 @@
-.about_me {
-  background-color: blue;
+html, body {
+  margin-top: 0;
+  margin: 0;
 }
-/* style the top nav*/
-.top_nav {
-  background-color: #51a3cc;
-  overflow: hidden;
-}
-/* style the top nav links*/
-.top_nav a {
-  float: right;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-/* style the top nav on hover links*/
-.top_nav a:hover {
-  background-color: brown;
-  color: black;
-}
-/* style the top nav active class*/
-.top_nav a.active {
-  background-color: red;
-  color: white;
-}
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #59b4c6;
+  }
+
+  li {
+    float: right;
+  }
+
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li a:hover {
+    background-color: magenta;
+  }
+  .active {
+    background-color: #4f61ea;
+    color: black;
+
+  }
